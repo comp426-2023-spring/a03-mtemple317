@@ -28,3 +28,5 @@ if (args.r){
     `)
     //process.exit(0)
     }
+if (args.invalid){
+    console.error(`[ARGUMENT] is out of range. Rules for Rock Paper Scissors:'`)}
