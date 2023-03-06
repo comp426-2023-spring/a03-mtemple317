@@ -18,3 +18,13 @@ Examples:
 `)
 //process.exit(0)
 }
+if (args.r){
+
+    console.log(`Rules for Rock Paper Scissors:
+
+    - Scissors CUTS Paper
+    - Paper COVERS Rock
+    - Rock CRUSHES Scissors
+    `)
+    //process.exit(0)
+    }
