@@ -28,5 +28,8 @@ if (args.r){
     `)
     //process.exit(0)
     }
-if (args.invalid){
-    console.error(`[ARGUMENT] is out of range. Rules for Rock Paper Scissors:'`)}
+/*if (args.invalid){
+    console.error(`[ARGUMENT] is out of range. Rules for Rock Paper Scissors:'`)}*/
+const rps = 
+    console.log (`Hello rps`)
+//module.exports = rps
