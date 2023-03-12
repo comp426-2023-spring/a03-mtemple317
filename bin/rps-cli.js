@@ -4,6 +4,7 @@
 import minimist from 'minimist'
 let args = minimist(process.argv.slice(2))
 const empty = Object.keys(args).length ===1;
+const shot = ["rock", "paper", "scissors"];
 if (args.h || empty === true){
 
 console.log(`Usage: node-rps [SHOT] 
@@ -28,7 +29,7 @@ if (args.r){
     `)
     //process.exit(0)
     }
-if (args._. length >1){
+if (!args.h && !args.r && (shot != 'rock' || 'paper' || 'scissors')){
     console.error(`[ARGUMENT] is out of range`);
     console.log (`Usage: node-rps [SHOT] 
     Play Rock Paper Scissors (RPS)
