@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* These are going to be the files that run when you link/install the package and run node-rps and node-rpsls, respectively*/
-//import { rpsls } from "/lib/rpsls.js"
+//import { rpsls } from "./lib/rpsls.js"
 import minimist from 'minimist'
 let args = minimist(process.argv.slice(2))
 const empty = Object.keys(args).length ===1;
@@ -20,7 +20,7 @@ Examples:
 `)
 //process.exit(0)
 }
-if (args.r){
+if (args.r || args.rules){
 
     console.log(`Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
 
@@ -37,5 +37,4 @@ if (args.r){
     `)
     //process.exit(0)
     }
-    const rpsls = 
-    console.log (`Hello rpsls`)
+    
