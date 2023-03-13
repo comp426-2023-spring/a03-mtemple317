@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* These are going to be the files that run when you link/install the package and run node-rps and node-rpsls, respectively*/
-//import { rpsls } from "./lib/rpsls.js"
+//import { rpsls } from "../lib/rpsls.js"
 import minimist from 'minimist'
 let args = minimist(process.argv.slice(2))
 const empty = Object.keys(args).length ===1;
