@@ -49,7 +49,7 @@ if (!args.h && !args.r && (shot != 'rock' || 'paper' || 'scissors')){
                       - Rock CRUSHES Scissors`);
     process.exit(0)}
 else if (args ._. length > 1){
-  JSON.stringify(rpsls.rps)
+  JSON.stringify(rps.rpsls)
 }
 
 
